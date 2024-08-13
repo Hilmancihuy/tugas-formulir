@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(49, 236, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 65px;
+}
+
+nav .brand {
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.navbar {
+    color: white;
+    font-weight: 700;
+}
